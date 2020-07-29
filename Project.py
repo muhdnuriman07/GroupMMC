@@ -1,3 +1,4 @@
+#Lab 9A
 # First import the socket library
 import socket;
 import sys
@@ -23,6 +24,8 @@ while True:
  #Establish connection with client
  c, addr = s.accept();
  print("Connection from",addr);
+
+#================================================================================================================================== 
 
 #Lab 9B
 try:
